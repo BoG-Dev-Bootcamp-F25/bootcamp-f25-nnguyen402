@@ -1,0 +1,60 @@
+html, body {
+  height: auto;
+  margin: 0;
+}
+body {
+    background-color: gainsboro;
+    background-image: linear-gradient(to bottom, gainsboro, black);
+}
+/* id's = card-container, profile-pic, text-box, text-content*/
+#card-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text-box {
+
+    border: 2px solid black;
+    width: 40%;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    
+}
+#text-content {
+    margin: auto;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    
+}
+#profile-pic {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 120px;
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#linkedin {
+    width: 50px;
+    margin-right: 5px;
+}
+#insta {
+    width: 50px;
+}
+#social-links {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
