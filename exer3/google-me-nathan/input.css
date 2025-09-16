@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.nav-link {
+    @apply rounded-full p-3 text-base;
+}
+
+.pic-config {
+    @apply h-15 rounded-full hover:opacity-50 transition
+}
