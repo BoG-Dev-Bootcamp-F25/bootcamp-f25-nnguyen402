@@ -1,6 +1,6 @@
 # Video Walkthrough
 
-[![Video Demo!!] (https://youtu.be/HeIAAzCyT9c)]
+[![Video Demo!!]](https://youtu.be/HeIAAzCyT9c)
 
 # Exercise 5 — Mini Pokédex
 
