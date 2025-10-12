@@ -24,8 +24,8 @@ function PokemonDisplay ({ pokemon , next, previous }) {
                 <p className = "capitalize border-2 border-black bg-gray-200 w-fit rounded-xl px-40 py-1 text-xl mt-2 mb-2">{pokemon.name}</p>
             </div>
             <div id = "type" className = "flex flex-col">
-                <p className = "font-bold bg-gray-500 px-16 w-fit rounded-xl">Types</p>
-                <div className = "flex flex-row gap-1">
+                <p className = "font-bold bg-gray-500 px-24 w-fit rounded-xl">Types</p>
+                <div className = "flex flex-row gap-1 justify-center">
                     {pokemon.types.map(typeMap => (
                         <PokemonType key = {typeMap.slot} typeName = {typeMap.type.name} />
                     ))}

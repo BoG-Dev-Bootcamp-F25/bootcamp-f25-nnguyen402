@@ -26,13 +26,10 @@ function PokemonInfo ({ pokemon }) {
                         <div id = "info-panel" className = {`panel-style`}>
                             <ul>
                                 <li>
-                                    <span className = "text-2xl">Height: {pokemon.height}m</span>
+                                    <span className = "text-2xl">Height: {(pokemon.height/10).toFixed(1)}m</span>
                                 </li>
                                 <li>
-                                    <span className = "text-2xl">Weight: {pokemon.weight}kg</span>
-                                </li>
-                                <li>
-
+                                    <span className = "text-2xl">Weight: {(pokemon.weight/10).toFixed(1)}kg</span>
                                 </li>
                                 {pokemon.stats.map(statsInfo => (
                                     <li>
