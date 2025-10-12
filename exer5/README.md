@@ -1,3 +1,7 @@
+# Video Walkthrough
+
+[Video Demo!!](./PokeDex_Demo.mp4)
+
 # Exercise 5 — Mini Pokédex
 
 ## Description
@@ -79,10 +83,9 @@ You will be pinging the PokeAPI using `fetch()`. Refer to the [PokeAPI docs](htt
   }
 
   const pokemonJSON = getPokemonJSON(1); //bulbasaur
-  
+
   /*
-  The following are the keys for the returned JSON that you would probably find useful. NOTE: You might need to use the taught JS methods to get
-  the information you need. These are just starting points!
+  The following are the keys for the returned JSON that you would probably find useful. NOTE: You might need to use the taught JS methods to get the information you need. These are just starting points!
   */
   const pokemonTypes = pokemonJSON.types; //array of objects
   const pokemonMoves = pokemonJSON.moves; //array of objects
@@ -92,7 +95,7 @@ You will be pinging the PokeAPI using `fetch()`. Refer to the [PokeAPI docs](htt
   const pokemonHeight = pokemonJSON.height; //number
   const pokemonWeight = pokemonJSON.weight; //number
   const pokemonDexNumber = pokemonJSON.order; //number
-  
+
   ```
 
 ### Arrow Buttons
